@@ -1,0 +1,152 @@
+/*Edits made by Kyle Stubbs - July 2020*/
+body {
+background-color:#f2f8f2
+}
+
+.home #content .panel-grid {
+margin:0
+}
+
+#primary #main .post {
+padding:1em
+}
+
+#primary #main .page h3 {
+display:none
+}
+
+.col-sm-9 {
+padding:0 10px;
+background:#fff
+}
+
+#mega-footer .widget {
+background:#212121;
+margin:0
+}
+
+.twitter-share {
+display:none
+}
+
+/* ====== KB Masthead and Nav 2020 ====== */
+#masthead {
+background-color:/* green */
+#50af55
+}
+
+#masthead #site-title .col-sm-8 #uc-site-header #uc-site-title a {
+color:/* dk blue */
+#101f39
+}
+
+#uc-site-header h1,#uc-site-header p,#uc-site-header a {
+color:/* dk blue */
+#101f39
+}
+
+.navbar-default .navbar-nav > li > a {
+color:/* dk blue */
+#101f39
+}
+
+.navbar-default .navbar-nav > .open > a,.navbar-default .navbar-nav > .open > a:hover,.navbar-default .navbar-nav > .open > a:focus {
+color:#fff
+}
+
+#masthead .navbar-default .navbar-collapse .navbar-nav > li > a:before {
+background-color:#fff
+}
+
+#masthead .navbar-default .navbar-collapse .navbar-nav > li > a:after {
+background-color:#fff
+}
+
+.dropdown-menu > li > a:hover,.dropdown-menu > li > a:focus {
+background:/* green */
+#50af55
+}
+
+#masthead .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover {
+color:#fff
+}
+
+/*#masthead #nav-wrapper .navbar-collapse .nav > li.active::after,#masthead #nav-wrapper .navbar-collapse .nav > li.current-menu-ancestor::after {
+background-color:#fff
+}*/
+.dropdown-menu > .active > a,.dropdown-menu > .active > a:hover,.dropdown-menu > .active > a:focus {
+background-color:/* dk blue */
+#101f39;
+color:#fff!important
+}
+
+/* ====== For new CAHNR theme activation 2020 - Web Dev ====== */
+.home #content .panel-grid .widget a {
+color:color:#41793E
+}
+
+.blog #content {
+margin-top:50px
+}
+
+#page #content .entry-content .panel-layout .panel-grid .panel-grid-cell .widget.widget_nav_menu ul.menu .menu-item a {
+border-left-color:transparent
+}
+
+#page #content .entry-content .panel-layout .panel-grid .panel-grid-cell .widget.widget_nav_menu ul.menu .menu-item a:hover,#page #content .entry-content .panel-layout .panel-grid .panel-grid-cell .widget.widget_nav_menu ul.menu .menu-item a:active,#page #content .entry-content .panel-layout .panel-grid .panel-grid-cell .widget.widget_nav_menu ul.menu .menu-item a:focus {
+color:#41793E;
+border-left:5px solid #41793E;
+background:#e3f7e2
+}
+
+#uc-header {
+border-bottom-color:#dedede
+}
+
+.home #content .panel-grid .widget .widget-title {
+color:#222;
+font-size:20px
+}
+
+.blog .entry-title {
+font-size:20px!important
+}
+
+.home #content .panel-layout .widget .rcpt_item_title {
+font-size:16px!important
+}
+
+.blog #content .entry-header {
+font-size:16px!important
+}
+
+.category-pageup #content .entry-title {
+font-size:22px!important
+}
+
+.category-pageup #content .page-title {
+color:#41793E;
+font-size:25px!important
+}
+
+.category-news #content .entry-title {
+font-size:22px!important
+}
+
+.category-news #content .page-title {
+color:#41793E;
+font-size:25px!important
+}
+
+.home .widget_archives label,.home .widget_categories label {
+display:none
+}
+
+#content .widget.widget_search .searchform fieldset .form-control {
+background:transparent
+}
+
+/* Fix for last nav item */
+#masthead .navbar-default .navbar-collapse .navbar-nav > li:nth-last-of-type(1) > a:hover::before {
+display:inline-block
+}
